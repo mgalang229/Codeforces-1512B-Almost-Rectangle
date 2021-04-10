@@ -34,7 +34,7 @@ int main() {
 		}
 		// create a vector 'new_v' to form the output
 		// there will be two cases to solve this problem
-		// first case: the two asterisks are in different positions (different row and column)
+		// first case: the two asterisks are in different positions (i.e., different row and column)
 		// in this case: this loop below will handle it
 		vector<vector<char>> new_v(n, vector<char>(n));
 		for (int i = 0; i < n; i++) {
