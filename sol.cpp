@@ -35,7 +35,7 @@ int main() {
 		// create a vector 'new_v' to form the output
 		// there will be two cases to solve this problem
 		// first case: the two asterisks are in different positions (i.e., different row and column)
-		// in this case: this loop below will handle it
+		// in this case: the loop below will handle it
 		vector<vector<char>> new_v(n, vector<char>(n));
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
@@ -49,7 +49,7 @@ int main() {
 			}
 		}
 		// second case: the two asterisks are in the same position(i.e., same row or column)
-		// in this case, this if-else condition will handle it
+		// in this case, the if-else condition will handle it
 		if (j_location1 == j_location2) {
 			// if the two asterisks are in the same column, then check if we could 
 			// store another asterisk in the next or previous column
