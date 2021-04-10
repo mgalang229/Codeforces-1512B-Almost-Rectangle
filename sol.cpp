@@ -39,7 +39,7 @@ int main() {
 		vector<vector<char>> new_v(n, vector<char>(n));
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
-				// swap the 'i' and 'j' coordinates of the variables to find locate the
+				// swap the 'i' and 'j' coordinates of the variables to locate the
 				// other two vertices of the rectangle
 				if ((i == i_location1 && j == j_location2) || (i == i_location2 && j == j_location1)) {
 					new_v[i][j] = '*';
